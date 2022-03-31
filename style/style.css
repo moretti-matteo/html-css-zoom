@@ -95,7 +95,7 @@ header{
 .container{
     margin: 50px auto auto auto;
     max-width: 95%;
-    height: calc(100vh - 170px);
+    height: calc(100vh - 150px);
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
@@ -110,6 +110,20 @@ header{
     background-position: center center;
     border-radius: 10px;
     height: 150px;
+    position: relative;
+}
+
+.label{
+    position: absolute;
+    bottom:5%;
+    left:5%;
+    transform: translate(-5%,5%);
+    background: #444;
+    padding: 5px;
+    border-radius: 5px;
+}
+.label i{
+    color:red;
 }
 
 footer{
