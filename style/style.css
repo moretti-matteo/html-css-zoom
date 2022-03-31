@@ -30,6 +30,9 @@ header{
     justify-content: space-between;
 }
 
+.recording-icons .fa-stop{
+    margin-left:10px;
+}
 
 
 .secure-icon{
@@ -60,9 +63,6 @@ header{
 
 .rec-text{
     margin:auto 20px auto 10px;
-}
-.fa-stop{
-    margin-left:20px;
 }
 
 /* HEADER RIGHT */
@@ -117,44 +117,58 @@ header{
     color:red;
 }
 
+
+/* FOOTER */
 footer{
     display: flex;
     justify-content: space-around;
-    background: rgb(93, 93, 93);
+    background: #303030;
     height: 60px;
 }
 
 .footer-left, .footer-center,.footer-right{
-    width: calc(100% / 3);
+    /* width: calc(100% / 3 - 10px); */
     display: flex;
     align-items: center;
     text-align: center;
-
 }
 
+
 footer i{
-    font-size: 20px;
+    font-size: 17px;
+}
+
+.footer-left{
+    width: 25%;
 }
 
 .footer-center{
     justify-content: center;
+    width: 50%;
 }
 
+.footer-right{
+    width: 25%;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
 .footer-left > div{
     margin:10px;
 }
 
 .footer-center > div{
-    margin:20px;
+    margin:15px;
 }
 
 .share-screen div{
     color:rgb(33, 224, 62);
 }
 
-.footer-right{
-    justify-content: flex-end;
-    margin-right: 10px;
+button.stop, button.pause{
+    padding: 7px;
+    font-size: 1px;
+    border:none;
+    border-radius: 5px;
 }
 
 .end{
@@ -166,4 +180,9 @@ footer i{
 }
 
 
-
+.share-screen button{
+    padding: 5px 15px;
+    background: rgb(33, 224, 62);
+    border:none;
+    border-radius: 7px;
+}
