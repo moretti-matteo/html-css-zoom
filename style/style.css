@@ -12,9 +12,8 @@ body{
 header{
     display: flex;
     justify-content: space-between;
-    border:1px solid red;
     font-size: 18px;
-
+    height: 40px;
 }
 
 .header-left,.header-right{
@@ -90,3 +89,76 @@ header{
     height: calc(100% / 3 - 2px);
     background: white;
 }
+
+/* MAIN */
+
+.container{
+    margin: 50px auto auto auto;
+    max-width: 95%;
+    height: calc(100vh - 170px);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-between;
+    overflow-y: auto;
+}
+
+.cam{
+    width: calc(100% / 6 - 5px);
+    background: url("https://blumagnolia.ch/wp-content/uploads/2021/05/placeholder-126.png");
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+    height: 150px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background: rgb(93, 93, 93);
+    height: 60px;
+}
+
+.footer-left, .footer-center,.footer-right{
+    width: calc(100% / 3);
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+footer i{
+    font-size: 20px;
+}
+
+.footer-center{
+    justify-content: center;
+}
+
+.footer-left > div{
+    margin:10px;
+}
+
+.footer-center > div{
+    margin:20px;
+}
+
+.share-screen div{
+    color:rgb(33, 224, 62);
+}
+
+.footer-right{
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.end{
+    color:white;
+    padding: 7px 15px;
+    border:none;
+    border-radius:10px;
+    background: red;
+}
+
+
+
