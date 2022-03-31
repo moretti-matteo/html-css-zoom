@@ -68,12 +68,7 @@ header{
 /* HEADER RIGHT */
 .view-icon{
     display: flex;
-    flex-wrap: wrap;
-    width: 18px;
-    height: 18px;
-    gap: 2px;
     margin-right:10px;
-    justify-content: center;
     align-items: center;
 }
 
@@ -84,11 +79,7 @@ header{
     padding: 5px 10px;
 }
 
-.square{
-    width: calc(100% / 3 - 2px);
-    height: calc(100% / 3 - 2px);
-    background: white;
-}
+
 
 /* MAIN */
 
